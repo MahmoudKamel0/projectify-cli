@@ -1,0 +1,14 @@
+{
+    "printWidth": 140,
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false,
+    "quoteProps": "consistent",
+    "jsxSingleQuote": false,
+    "trailingComma": "all",
+    "bracketSameLine": false,
+    "endOfLine": "lf",
+    "proseWrap": "always",
+    "htmlWhitespaceSensitivity": "strict",
+    "plugins": ["prettier-plugin-tailwindcss", "@trivago/prettier-plugin-sort-imports", "prettier-plugin-css-order"]
+}
