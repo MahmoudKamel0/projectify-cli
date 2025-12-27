@@ -1,6 +1,14 @@
+import WelcomeComponent from "@components/welcome-component";
 
-export default function Home() {
+/**
+ * HomePage
+ * The main landing page component for the application.
+ * Renders the community welcome section.
+ *
+ * @returns {JSX.Element} The homepage element.
+ */
+export default function HomePage() {
     return (
-        <p id="home-page">hello world</p>
+        <WelcomeComponent />
     );
 }
