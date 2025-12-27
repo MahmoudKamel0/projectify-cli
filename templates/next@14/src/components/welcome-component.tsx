@@ -25,7 +25,7 @@ export default function WelcomeComponent({ className }: WelcomeComponentProps) {
                             </a>
                         </Button>
                         <Button size="lg" variant="outline" asChild>
-                            <a href="https://shadcnblocks.com" target="_blank" className="size-10">
+                            <a href="https://www.npmjs.com/package/prox-cli" target="_blank" className="size-10">
                                 <NpmWordmark />
                             </a>
                         </Button>
