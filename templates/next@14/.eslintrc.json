@@ -1,10 +1,20 @@
 {
-    "extends": ["next/core-web-vitals", "next/typescript"],
+    "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
     "rules": {
         "indent": ["error", 4],
         "semi": ["error", "always"],
         "quotes": ["error", "double", { "avoidEscape": true, "allowTemplateLiterals": true }],
+        "no-console": "error",
         "no-var": "error",
-        "no-console": "error"
+        "unused-imports/no-unused-imports": "error",
+        "eqeqeq": ["error", "always"],
+        "array-bracket-spacing": ["error", "never"],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "object-curly-spacing": ["error", "always"],
+        "key-spacing": ["error", { "beforeColon": false, "afterColon": true }]
     }
 }
